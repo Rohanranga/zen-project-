@@ -1,0 +1,26 @@
+# Core API
+fastapi>=0.111,<1.0
+uvicorn[standard]>=0.30,<1.0
+pydantic>=2.0,<3.0
+pydantic-settings>=2.0,<3.0
+python-dotenv>=1.0,<2.0
+
+# Vector store
+chromadb>=0.5,<1.0
+
+# Embeddings
+sentence-transformers>=3.0,<4.0
+
+# PDF loading
+pypdf>=4.0,<5.0
+
+# LLM providers (optional — only needed when EMBEDDING/LLM provider is openai/anthropic)
+openai>=1.30,<2.0
+anthropic>=0.30,<1.0
+
+# PDF generation for sample data
+reportlab>=4.0,<5.0
+
+# Testing
+pytest>=8.0,<9.0
+httpx>=0.27,<1.0
