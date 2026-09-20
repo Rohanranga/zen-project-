@@ -19,6 +19,9 @@ chroma_store/
 # Generated PDFs (created by scripts/generate_pdfs.py)
 data/**/*.pdf
 
+# Claude Code
+.claude/
+
 # IDE
 .vscode/
 .idea/
